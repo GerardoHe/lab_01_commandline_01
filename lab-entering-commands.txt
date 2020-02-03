@@ -57,9 +57,9 @@ $ ls -l Documents<ENTER>
 
 Copy and paste the first *two lines* of output below.
 ----------
-drwxr-x---   2 student  staff    68 Aug 22  2016 Adlm
-drwxr-xr-x   4 student  staff   136 Aug 22  2016 Applications
 
+drwxrwxrwx  15 student  staff   510 Jan  9 17:04 Adobe
+drwxr-xr-x   3 student  staff   102 Aug 22  2016 Arduino
 
 
 ==========
@@ -69,9 +69,8 @@ $ ls -a Documents
 
 Copy and paste the first *two lines* of output below.
 ----------
-.				.mono
-..				.mplabcomm
-
+.			Avid Projects		Pro Tools
+..			Fritzing		Processing
 
 ==========
 5.  Type:
@@ -81,7 +80,7 @@ Copy and paste the first *two lines* of output below.
 What command was repeated?
 ----------
 
-ls -l
+ls -a Documents
 
 ==========
 6.  Type:
@@ -91,7 +90,7 @@ ls -l
 What command was repeated?
 ----------
 
-ls D
+ls -a Documents
 
 ==========
 7.  Type:
@@ -101,7 +100,7 @@ $ ls /Vol<TAB><ENTER>
 What is the result of pressing tab?
 ----------
 
-
+Macintosh HD		firmwaresyncd.2LQZPP
 
 ==========
 8.  Type:
@@ -111,37 +110,37 @@ $ ls doesnotexist
 Copy and paste the output below.
 ----------
 
-
+ls: doesnotexist: No such file or directory
 
 ==========
 9.  What key do I press to go to the previous command?
 ----------
 
-
+up
 
 ==========
 10.  Name two flags that we used in this exercise.
 ----------
 
-
+-l and -a
 
 ==========
 11.  What key do I use to attempt to autocomplete a command or a file name?
 ----------
 
-
+tab
 
 ==========
 12.  What was the main command that we used throughout this exercise?
 ----------
 
-
+ls
 
 ==========
 13.  Name one argument that we passed to the command.
 ----------
 
-
+ls /volumes
 
 ==========
 14.  Type:
@@ -151,7 +150,7 @@ $ foo<ENTER>
 Copy and paste the output below.
 ----------
 
-
+-bash: foo: command not found
 
 ==========
 15.  Type:
@@ -161,7 +160,7 @@ Copy and paste the output below.
 Copy and paste the output below.
 ----------
 
-
+-bash: foo: command not found
 
 ==========
 16.  In the following line....
@@ -170,3 +169,4 @@ $ ls -a Desktop
 
 What is the command, flag, argument, and prompt?
 ----------
+The command is ls and the flag is -a and the argument is Desktop and the prompt is $
